@@ -55,7 +55,7 @@
                     alertContainer.appendChild(anchorTag);
                 }
 
-                if (options.position) {
+                if (options.display) {
                     var _pos = options.position;
                     alertContainer.style.position = _pos.position;
                     alertContainer.style.width = "350px";
