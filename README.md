@@ -17,7 +17,7 @@ options(optional)
 <pre>
 type - Alert type (success | info | danger | warning)
 
-position( object ) - Alert position 
+display( object ) - Control alert display position 
   - position: css position property
   - top, bottom, left, right : css values 
 
@@ -35,7 +35,7 @@ duration (number) : duration in milliseconds
 $("body").BSAlert("Hello World", "This is a test message", 
   {
     type: 'success',
-    position: {
+    display: {
       position: 'absolute',
       bottom: '20px';
       right: '20px';
