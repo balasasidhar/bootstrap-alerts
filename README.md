@@ -3,7 +3,7 @@ Dynamic Bootstrap Alerts with Auto Dismiss feature
 
 <h5> Usage: </h5>
 <pre>
-$("<div>").BSAlert(title, message, options);
+$("target_div").BSAlert(title, message, options);
 </pre>
 
 <h5> Params </h5>
