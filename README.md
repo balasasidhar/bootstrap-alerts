@@ -7,6 +7,7 @@ $("target_div").BSAlert(title, message, options);
 </pre>
 
 <h5> Params </h5>
+<pre>
 title(required) - Alert title 
 mesage(required) - Alert message
 
@@ -24,6 +25,7 @@ href (object) - Hyper links
   
 autoClose (boolean) : true | false;
 duration (number) : duration in milliseconds 
+</pre>
 
 <h5> Example </h5>
 <pre>
