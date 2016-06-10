@@ -10,8 +10,11 @@ $("target_div").BSAlert(title, message, options);
 <pre>
 title(required) - Alert title 
 mesage(required) - Alert message
-
 options(optional)
+</pre>
+
+<h5> options </h5>
+<pre>
 type - Alert type (success | info | danger | warning)
 
 position( object ) - Alert position 
