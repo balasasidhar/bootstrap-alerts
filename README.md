@@ -4,7 +4,7 @@ Dynamic Bootstrap Alerts with Auto Dismiss feature
 <h5> Usage: </h5>
 <pre>
 
-&lt;script src="https://github.com/sasidhar678/bootstrap-alerts/blob/master/bs_alerts.js"&gt; &lt;/script&gt;
+&lt;script src="https://cdn.rawgit.com/sasidhar678/bootstrap-alerts/master/bs_alerts.js"&gt; &lt;/script&gt;
 
 $("target_div").BSAlert(title, message, options);
 </pre>
