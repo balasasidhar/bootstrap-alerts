@@ -40,8 +40,8 @@ $("body").BSAlert("Hello World", "This is a test message",
     type: 'success',
     display: {
       position: 'absolute',
-      bottom: '20px';
-      right: '20px';
+      bottom: '20px',
+      right: '20px'
     },
     autoClose: true,
     duration: 2000
