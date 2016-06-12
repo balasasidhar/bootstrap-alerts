@@ -56,7 +56,7 @@
                 }
 
                 if (options.display) {
-                    var _pos = options.position;
+                    var _pos = options.display;
                     alertContainer.style.position = _pos.position;
                     alertContainer.style.width = "350px";
                     alertContainer.style.zIndex = "999999";
