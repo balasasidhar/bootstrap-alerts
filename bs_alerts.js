@@ -63,14 +63,18 @@
                     alertContainer.style.bottom = "20px";
                     alertContainer.style.right = "20px";
 
-                    if (_pos.top)
+                    if (_pos.top){
                         alertContainer.style.top = _pos.top;
+                        alertContainer.style.bottom = "inherit";
+                    }
                     if (_pos.right)
                         alertContainer.style.right = _pos.right;
                     if (_pos.bottom)
                         alertContainer.style.bottom = _pos.bottom;
-                    if (_pos.left)
+                    if (_pos.left){
                         alertContainer.style.left = _pos.left;
+                        alertContainer.style.right = "inherit";
+                    }
                 }
 
                 if (options.hasOwnProperty('autoClose')) {
