@@ -46,4 +46,4 @@ $("body").BSAlert("Hello World", "This is a test message",
 );
 </pre>
 
-<img src="https://dl.dropboxusercontent.com/s/aeozillbwpja2lo/bootstrap%20alerts.png" width="75%">
+<img src="https://dl.dropboxusercontent.com/s/aeozillbwpja2lo/bootstrap%20alerts.png" width="100%">
